@@ -57,21 +57,48 @@ padding-left: 100px;
 }
 main{
   font-family: 'Pompiere', cursive;
+align-items: unset;
 
 
   }
 
-.tabela{
-  display: flex;
-  flex-wrap: wrap;
-}
+  .box1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+ img.chat{
+    width: 80px;
+    height: 80px;
+  }
+  div.container{
 
+justify-content: center;
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row;
+ 
+  }  
+
+
+.box2{
+ display: flex;
+flex-wrap: wrap;
+justify-content: right;
+font-size: 20px;
+padding: 20px;
+
+
+}
 
 footer {
   max-width: 100%;
   flex-wrap: wrap;
   display: flex;
-  justify-content:end;
+  justify-content: space-between;
+  align-items:flex-end;
 
   
   background: rgb(94,164,65);
