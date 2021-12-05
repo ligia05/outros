@@ -68,31 +68,60 @@ align-items: unset;
     flex-direction: column;
     margin-left: 50px;
     margin-top: 25px;
+    margin-right: 0px;
+    margin-bottom: 0px;
   }
  img.chat{
     width: 80px;
     height: 80px;
   }
-  div.container{
 
-justify-content: center;
-  display: flex;
-  flex-wrap:nowrap;
-  flex-direction: row;
- 
-  }  
 
+
+  
+.tab{
+
+display: flex;
+}
+  
+.set{
+display: flex;
+width:180px ;
+height: 40px;
+
+}
 
 .box2{
- display: flex;
-flex-wrap: wrap;
-justify-content: right;
-font-size: 20px;
-padding: 20px;
+ display:flex;
+flex-direction: row-reverse;
+font-size: 25px;
+margin-right: 50px;
+margin-left: 0px;
+margin-bottom: 0px;
 
 
 }
 
+div.container{
+  display: flex;
+}
+
+ 
+
+.ranking{
+  display: flex;
+
+font-size: 35px;
+
+}
+.posicao{
+  display: flex;
+ justify-content: center;
+  flex-direction: column;
+
+
+
+}
 footer {
   max-width: 100%;
   flex-wrap: wrap;
